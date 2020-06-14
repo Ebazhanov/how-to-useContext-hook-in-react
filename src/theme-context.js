@@ -1,17 +1,16 @@
 import React from 'react'
-import {black, white} from "color-name";
 
 export const themes = {
     dark: {
-        color: white,
-        backGround: black,
+        color: 'white',
+        background: 'black',
     },
-    light: {
-        color: black,
-        background: white
+    red: {
+        color: 'black',
+        background: 'red'
     }
 }
 
-const ThemeContext = React.createContext(themes.dark)
+const ThemeColorBackground = React.createContext('themes.dark')
 
-export default ThemeContext
+export default ThemeColorBackground

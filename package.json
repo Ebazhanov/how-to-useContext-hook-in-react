@@ -28,8 +28,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "color-name": "^1.1.4"
   }
 }

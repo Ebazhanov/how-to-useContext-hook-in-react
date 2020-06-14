@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-import './App.css';
 import Layout from "./Layout";
 import ThemeContext, {themes} from "./theme-context";
+import './App.css'
 
 function App() {
     return (
@@ -11,8 +10,5 @@ function App() {
         </ThemeContext.Provider>
     );
 }
-
-const rootElement = document.getElementById('root');
-ReactDOM.render(<App/>, rootElement)
 
 export default App

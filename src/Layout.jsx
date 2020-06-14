@@ -1,12 +1,13 @@
 import React, {useContext} from "react";
-import ThemeContext from "./theme-context";
+import ThemeColorBackground from "./theme-context";
 
 const Layout = () => {
-    const theme = useContext(ThemeContext)
+
+    const theme = useContext(ThemeColorBackground)
 
     return (
         <div style={theme}>
-            <p>{JSON.stringify(theme)}</p>
+            <p id='theme'>here you can easily change "theme" by using React hook<h2>useContext</h2></p>
         </div>
     )
 };
